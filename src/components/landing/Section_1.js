@@ -3,38 +3,6 @@ import "./Section_1.css";
 import boussole from '../../images/boussole.png';
 import malette from '../../images/malette.png';
 import courbe from '../../images/courbe.png';
-// import Button from '../../module/Button';
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import {ScrollToPlugin} from  "gsap/ScrollToPlugin";
-
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-
-
-const slideToTop = (elem, delay, duration) => {
-    gsap.fromTo(
-        elem,
-        {
-            opacity: 0,
-            y:-200
-        },
-        {
-            opacity:1,
-            y:0,
-            // delay: delay || 0.4,
-            duration: duration || 0.6,
-            scrollTrigger: {
-                trigger: elem,
-                start: "top",
-                // end: "bottom center"
-            }
-
-        }
-    )
-}
-
-
-
 
 
 function Section1() {
@@ -153,7 +121,6 @@ function Section1() {
             </div>
         </div>
     </div>
-
   )
 }
 
