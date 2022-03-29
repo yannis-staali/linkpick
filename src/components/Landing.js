@@ -1,11 +1,13 @@
 import React from 'react';
 import "./Landing.css";
+import EnQuelquesClicks from './EnQuelquesClics/EnQuelquesClicks';
 import boussole from '../images/boussole.png';
 import malette from '../images/malette.png';
 import courbe from '../images/courbe.png';
 
 function Landing() {
   return (
+      <div>
     <div className='landing_main'>      
         <div className='landing_main'>
             <div className="landing__container">
@@ -91,8 +93,13 @@ function Landing() {
                 </div>
             </div>
         </div>
+       
     </div>
-
+    <div>
+         <EnQuelquesClicks />
+    </div>
+  
+    </div>
 
   )
 }
