@@ -1,10 +1,12 @@
 import React from 'react';
-import "./Landing.css";
-import boussole from '../images/boussole.png';
-import malette from '../images/malette.png';
-import courbe from '../images/courbe.png';
+import "./Section_1.css";
+import boussole from '../../images/boussole.png';
+import malette from '../../images/malette.png';
+import courbe from '../../images/courbe.png';
+// import Button from '../../module/Button';
 
-function Landing() {
+function Section1() {
+
   return (
     <div className='landing_main'>      
         <div className='landing_main'>
@@ -93,8 +95,7 @@ function Landing() {
         </div>
     </div>
 
-
   )
 }
 
-export default Landing
+export default Section1
