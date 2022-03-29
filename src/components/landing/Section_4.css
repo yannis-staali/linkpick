@@ -1,0 +1,20 @@
+.title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.title_container > h1 {
+    color: #152652;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card_container {
+    display: flex;
+    height: 70%;
+    /* align-items: center; */
+    justify-content: center;
+}
