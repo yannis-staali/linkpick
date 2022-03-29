@@ -1,15 +1,14 @@
 
-a {
-    width: 100%;
-    height: 90%;
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .searchButton {
     background-color: #0060F9;
+    padding: 0.8rem 2.2rem;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: bolder;
     border-radius: 10px;
     cursor: pointer;
@@ -17,9 +16,24 @@ a {
 }
 
 .subscribeButton {
-    background-color: #0060F9;
+    border: none;
     padding: 0.8rem 2.2rem;
     color: white;
     border-radius: 23px;
-    margin-left: 0.3rem;
+    cursor: pointer;
+    outline: none;
+    min-width: 70%;
+    font-weight: 500;
+}
+
+.orange {
+    background-color: #F96C00;
+}
+
+.blue {
+    background-color: #0060F9;
+}
+
+.green {
+    background-color: #00CB73;
 }

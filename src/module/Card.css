@@ -1,0 +1,42 @@
+.card {
+    width: 25%;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px rgba(62, 72, 255, 0.102), -5px -5px 10px rgba(50, 102, 255, 0.102)  ; 
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card_image {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card_image > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card_title {
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 900;
+    color: #152652;
+    padding: 1.2rem;
+}   
+
+.card_text {
+    height: 30%;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #89a3e6;
+    padding: 0.6rem;
+}
+
