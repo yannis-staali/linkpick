@@ -1,5 +1,8 @@
-import React from 'react'
+import React from 'react';
 import "./Landing.css";
+import boussole from '../images/boussole.png';
+import malette from '../images/malette.png';
+import courbe from '../images/courbe.png';
 
 function Landing() {
   return (
@@ -46,13 +49,45 @@ function Landing() {
         <div className="landing_threeCards">
             <div className="landing_threeCards_container">
                 <div className="card_one">
-                
+                    <div className="card_one_image">
+                        <img  className='boussole' src={boussole} alt='' />
+                    </div>
+                    <div className="card_one_title">
+                        <p>Choississez votre voie</p>
+                    </div>
+                    <div className="card_one_text">
+                        <p>Explorez les trajectoires de formation 
+                        et candidatez en quelques clics dans les écoles 
+                        qui vous correspondent.</p>
+                    </div>
                 </div>
                 <div className="card_two">
-    
+                    <div className="card_one_image">
+                        <img  className='boussole' src={malette} alt='' />
+                    </div>
+                    <div className="card_one_title">
+                        <p>Trouvez votre emploi</p>
+                    </div>
+                    <div className="card_one_text">
+                        <p>Validez vos diplômes avec nos 
+                            entreprises partenaires qui proposent des 
+                            stages ou des alternances toute l'année.
+                        </p>
+                    </div>
                 </div>
                 <div className="card_three">
-    
+                    <div className="card_one_image">
+                        <img  className='boussole' src={courbe} alt='' />
+                    </div>
+                    <div className="card_one_title">
+                        <p>Soyez accompagné</p>
+                    </div>
+                    <div className="card_one_text">
+                        <p>Linkpick est ses partenaires s'engagent 
+                            à vous accompagner et à vous épauler
+                            tout au long de votre parcours d'étudiant.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
