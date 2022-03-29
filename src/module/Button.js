@@ -1,16 +1,16 @@
 import React from "react";
 import "./Button.css";
 
-function Button({ href, onClick, className, text }) {
+function Button({ onClick, className, background, text }) {
     return (
-        <a href={href}>
-            <button
-                onClick={onClick}
-                className={className}
-            >
-                {text}
-            </button>
-        </a>
+        <div className="button_container">
+                <button
+                    onClick={onClick}
+                    className={`${className} ${background}`}
+                >
+                    {text}
+                </button>
+        </div>
     );
 }
 
