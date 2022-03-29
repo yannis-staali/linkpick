@@ -1,23 +1,65 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Nav/>
+       <Landing/>
+
+       <main className='main'>
+          <h1>Accueil</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nostrum eum possimus dolorum nihil cumque optio ab inventore accusantium maxime, rem repudiandae, culpa veniam distinctio perferendis veritatis impedit illo. Ex.
+          Esse ad dicta laudantium repellat repudiandae distinctio at ipsam, laborum molestiae, aliquam molestias aspernatur veniam pariatur qui fugiat impedit quos ab eius architecto perferendis. Molestiae nisi debitis numquam ea iste?
+          </p>
+         
+       </main>
     </div>
   );
 }
