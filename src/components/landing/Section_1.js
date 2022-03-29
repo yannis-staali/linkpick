@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD:src/components/landing/Section_1.js
 import "./Section_1.css";
 import boussole from '../../images/boussole.png';
 import malette from '../../images/malette.png';
@@ -6,8 +7,16 @@ import courbe from '../../images/courbe.png';
 // import Button from '../../module/Button';
 
 function Section1() {
+=======
+import "./Landing.css";
+import EnQuelquesClicks from './EnQuelquesClics/EnQuelquesClicks';
+import boussole from '../images/boussole.png';
+import malette from '../images/malette.png';
+import courbe from '../images/courbe.png';
+>>>>>>> afc9e9c (fusion des deux commit sur etat final):src/components/Landing.js
 
   return (
+      <div>
     <div className='landing_main'>      
         <div className='landing_main'>
             <div className="landing__container">
@@ -93,6 +102,12 @@ function Section1() {
                 </div>
             </div>
         </div>
+       
+    </div>
+    <div>
+         <EnQuelquesClicks />
+    </div>
+  
     </div>
 
   )
