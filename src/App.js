@@ -4,6 +4,7 @@ import SolutionEntreprise from "./components/SolutionEntreprise";
 import './App.css';
 import Nav from './components/Nav';
 import Landing from './components/Landing';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
           </p>
          
        </main>
+       <Footer />
     </div>
   );
 }
