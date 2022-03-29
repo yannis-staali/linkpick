@@ -1,19 +1,19 @@
 import React, {useState} from 'react';
+import { Routes, Route, Link } from "react-router-dom";
 import "./Nav.css";
-import logo from '../images/logo.png';
 import logoLinckpick from '../images/Logo_linkpick.png';
 
 
 function Nav() {
 
     const [showLinks, setShowLinks] = useState(false);
+    const [nav, setNav] = useState(false);
+
 
     const handleShowLinks = () => {
         setShowLinks(!showLinks);
     }
 
-
-    const [nav, setNav] = useState(false);
 
     const changeBackground = () => {
         if(window.scrollY >= 50) {
@@ -28,20 +28,24 @@ function Nav() {
 
   return (
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} ${nav ? "activateNav" : "immobile"}`}>
-        <div className="navbar__logo"><a href='#' className='logo'><img  className='img__logo' src={logoLinckpick} alt='' /></a></div>
+        <div className="navbar__logo">
+            <Link className="navbar__link" to="/"><img  className='img__logo' src={logoLinckpick} alt='' /></Link>
+        </div>
         <ul className="navbar__links">
             <li className="navbar__item slideInDown-1">
-                <a href="/" className="navbar__link">Trouver mon entreprise</a>
+                <nav>
+                    <Link className="navbar__link" to="/solution-entreprise">Trouver mon entreprise</Link>
+                </nav>
             </li>
             <li className="navbar__item slideInDown-2">
-                <a href="/" className="navbar__link">Trouver mon école</a>
+                <nav>
+                    <Link className="navbar__link" to="/solution-ecole">Trouver mon école</Link>
+                </nav>
             </li>
             <li className="navbar__item slideInDown-3">
                 <a href="/" className="navbar__link">Espace organisme</a>
             </li>
-            <li className={`navbar__item slideInDown-4 deca ${showLinks ? "decaClear" : ""}`} >
-                <a href="/" className="navbar__link">Contactez-nous</a>
-            </li>
+    
             <li className="navbar__item slideInDown-5">
                 <a href="/" className="navbar__link">Se connecter</a>
             </li>
