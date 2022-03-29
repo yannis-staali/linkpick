@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
        <Nav/>
+        {/* <Essentiel/> */}
        <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/solution-ecole" element={<SolutionEcole />} />
