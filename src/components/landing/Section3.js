@@ -1,8 +1,73 @@
 import React from 'react';
+import { useEffect } from 'react';
 import EssentielImg from '../../images/essentiel.png';
 import "./Section3.css";
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {ScrollToPlugin} from  "gsap/ScrollToPlugin";
+
+const slideCard = (elem, delay, duration) => {
+    gsap.fromTo(
+        elem,
+        {
+            opacity: 0,
+            y:200
+        },
+        {
+            opacity:1,
+            y:0,
+            delay: delay || 0.4,
+            duration: duration || 0.6,
+            scrollTrigger: {
+                trigger: elem,
+                start: "top center",
+                end: "bottom center"
+            }
+
+        }
+    )
+}
+
+const slideToTop = (elem, delay, duration) => {
+    gsap.fromTo(
+        elem,
+        {
+            opacity: 0,
+            y:-200
+        },
+        {
+            opacity:1,
+            y:0,
+            delay: delay || 0.4,
+            duration: duration || 0.6,
+            scrollTrigger: {
+                trigger: elem,
+                start: "top center",
+                end: "bottom center"
+            }
+
+        }
+    )
+}
+
+
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+
 function Section3() {
+
+    useEffect(() => {
+        // slideCard(".essentiel_bottom_img");
+
+        //Animation cardThree
+        gsap.from(".essentiel_bottom_img", {
+            scrollTrigger: ".essentiel_bottom_img",
+            y:100,
+            duration:1,
+            start: "300px"
+        });
+    }, [])
+
   return (
     <div className='essentiel_container'>
         <div className="essentiel">

@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     z-index: 2;
-    margin-top: 80;
+    margin-top: 300px;
     /* background-color: aqua; */
 }
 
@@ -12,6 +12,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: red; */
+    width: 100%;
 }
 
 .essentiel_top {
@@ -28,4 +30,17 @@
     text-align: center;
     width: 65%;
     color: #5D75A8;
+}
+
+.essentiel_bottom {
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.essentiel_bottom_img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }

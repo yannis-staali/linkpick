@@ -25,16 +25,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     /* background-color: red; */
     /* height: 80%; */
     /* width: 30%; */
-    margin-left: 2rem;
+    margin-left: 8rem;
+    /* background-color: blue; */
+    /* background-color: purple */
 }
 
 .img__logo {
+    /* background-color: red; */
     max-width: 50%;
     max-height: 100%;
     max-width: 150px;
+   
 }
 
 .logo {
@@ -61,10 +67,16 @@
   padding: 0 0.3rem;
   font-size: 0.9rem;
  font-weight: bolder;
+ 
   /* color: inherit; */
-  color: rgb(0, 0, 78);
+  /* color: rgb(0, 0, 78); */
+  color: #152652;
   /* margin-right: rem; */
   /* background: red; */
+}
+
+.navbar__link:hover {
+    color: #0060F9;
 }
 
 .navbar__burger {
@@ -97,6 +109,11 @@
     margin-left: 0.3rem;
 }
 
+.buttonInscrire:hover {
+    color: white;
+    background-color: #022c71;
+}
+
 @media screen and (min-width:1300px) {
     .navbar__link {
        
@@ -119,6 +136,21 @@
 
    
  
+}
+
+
+@media screen and (min-width:1190px) {
+    .navbar__link {
+        align-items: center;
+        
+      }
+
+      .containLogo {
+          /* background-color: orange; */
+          align-items: center;
+          justify-content: center;
+          padding-top: 1rem;
+      }
 }
 
 @media screen and (max-width:1200px) {
@@ -163,6 +195,9 @@
         font-size: 1rem;
       
         /* font-size: 2vw; */
+    }
+    .containLogo{
+        /* background-color: blue; */
     }
 
     .navbar__burger {
