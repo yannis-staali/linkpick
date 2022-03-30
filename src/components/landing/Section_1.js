@@ -3,7 +3,6 @@ import "./Section_1.css";
 import boussole from '../../images/boussole.png';
 import malette from '../../images/malette.png';
 import courbe from '../../images/courbe.png';
-// import Button from '../../module/Button';
 
 function Section1() {
 
@@ -94,7 +93,6 @@ function Section1() {
             </div>
         </div>
     </div>
-
   )
 }
 
