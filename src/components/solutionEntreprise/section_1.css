@@ -9,15 +9,19 @@
     display: flex;
     position: relative;
     align-items: center;
-    z-index: -999999;
+    /* z-index: -999999; */
 }
-
+.form_integre_solution_entreprise{
+    position: relative;
+    z-index: 9999
+}
 .soluc_ent_section1_containeur_secondaire{
     /* background-color: brown; */
     display: flex;
     justify-content: center;
     height: 60%;
     width: 100vw;
+    z-index: 10;
 }
 
 .soluc_ent_section1_partie_gauche_containeur, .soluc_ent_section1_partie_droite_containeur{
