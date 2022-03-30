@@ -1,35 +1,37 @@
 
 .enQqClics_container{
-    max-width: 600px;
-    margin-top: 300px;
+    /* background-color: aqua; */
+    width: 40%;
+    height: 70vh;
+    /* margin-top: 300px; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .enQqClics_h1{
-   font-size: 2.8rem;
+    color: #152652;
+    font-size: 1.6em;
     width: 100%;
     font-weight: bold;
 }
 .enQqClics_img{
-    margin-right: 20px;
-    margin-left: 20px;
-    min-width: 90px;
-    height: 90px;
+    margin-right: 18px;
+    min-width: 70px;
+    height: 70px;
 }
 .enQqClics_card_container_bleu{
     background-color: #E4EEFF;
     box-shadow: 5px 5px 5px rgb(206, 206, 206);
     width: 94%;
-    padding: 20px 20px 8px 20px;
+    padding: 13px 13px 6px 13px;
     border-radius: 15px;
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .enQqClics_card_container{
-    padding: 20px 20px 8px 20px;
+    padding: 13px 13px 6px 13px;
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 94%;
     transition: 0.3s;
 }
@@ -41,15 +43,15 @@
 }
 .enQqClics_h2{
     color: #3B3BFF;
-    font-size: 2rem;
+    font-size: 1.1em;
     font-weight: 2000;
 }
 .enQqClics_h3{
-    font-size: 1.9rem;
+    font-size: 1.1em;
     font-weight: bold;
 }
 .enQqClics_p{
-    font-size: 1.3rem;
+    font-size: 0.7em;
     color:#5D75A8;
-    margin-top: 40px
+    margin-top: 20px
 }

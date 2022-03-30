@@ -31,6 +31,7 @@ function Section4() {
             </div>
             <div className='card_container'>
                 <Card 
+                    className="card"
                     img="1"
                     alt="img_ecole"
                     title="Je suis une école" 
@@ -41,6 +42,7 @@ function Section4() {
                     btnText="Découvrir la solution"
                 />
                 <Card
+                    className="card"
                     img="2"
                     alt="img_ecole"
                     title="Je suis un(e) étudiant(e)"
@@ -51,6 +53,7 @@ function Section4() {
                     btnText="S'inscire"
                 />
                 <Card
+                    className="card"
                     img="3"
                     alt="img_ecole"
                     title="Je suis une entreprise"
