@@ -11,6 +11,10 @@
   font-family: 'Montserrat', sans-serif;
 } 
 
+h1 {
+  letter-spacing: 1px;
+}
+
 h1, p {
   margin-bottom: 1rem;
 }
