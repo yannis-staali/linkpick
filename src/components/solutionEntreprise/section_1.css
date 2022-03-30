@@ -1,42 +1,21 @@
 
-
-
-
-
 .soluc_ent_section1_containeur{
-<<<<<<< HEAD
     /* background-color: aqua; */
     background-repeat: no-repeat;
-    background-image: url('../../images/solution_entreprise_background.png');
-    background-size: 35%;
+    background-image: url('../../images/solutionEntrepriseback.png');
+    background-size: 100%;
     background-position-y: bottom    ;
     height: 100vh;
     display: flex;
+    position: relative;
     align-items: center;
-=======
-
-    /* background-color: aqua; */
-    background-repeat: no-repeat;
-    /* background-size: contain; */
-    background-image: url('../../images/solution_entreprise_background.png');
-    background-size: 35%;
-    background-position-y: bottom    ;
-
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    /* width: 100vw; */
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
+    z-index: -999999;
 }
 
 .soluc_ent_section1_containeur_secondaire{
     /* background-color: brown; */
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-=======
-    /* margin-top: 5%; */
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
     height: 60%;
     width: 100vw;
 }
@@ -45,20 +24,11 @@
     width: 40%;
     height: 100%;
 }
-<<<<<<< HEAD
 .soluc_ent_section1_partie_droite_containeur{
     padding-left: 5%;
     padding-right: 5%;
 }
 
-=======
-
-.soluc_ent_section1_partie_gauche_containeur{
-    /* background-color: azure; */
-}
-
-
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
 .soluc_ent_section1_partie_gauche_contenu_h1{
     font-weight: 900;
     font-size: 1.8em;
@@ -72,52 +42,42 @@
 }
 
 .soluc_ent_section1_partie_gauche_contenu_liste{
-<<<<<<< HEAD
-=======
-    /* background-color: blueviolet; */
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
     margin-top: 2vh;
 }
 
 .soluc_ent_section1_partie_gauche_contenu_liste > li {
-<<<<<<< HEAD
-=======
-    /* background-color: yellow; */
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
     display: flex;
     align-items:flex-start;
     
 }
 .soluc_ent_section1_partie_gauche_contenu_liste > li > img{
-<<<<<<< HEAD
-=======
-    /* background-color: blue; */
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
     height: 20px;
     margin-right: 6px;
         
 }
 
 .soluc_ent_section1_partie_gauche_contenu_liste > li > p{
-<<<<<<< HEAD
-=======
-    /* background-color: red; */
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
     display: block;
     height: 20px;
-    
+    color:#5D75A8
 }
-<<<<<<< HEAD
 
 .soluc_ent_section1_partie_droite_img_etudiante{
     position: absolute;
     transform: translate(50px, -65px);
-    z-index: -10;
+    z-index: -5;
 }
 .soluc_ent_section1_partie_droite_img_bras_etudiante{
     position: absolute;
     transform: translate(65px, -15px);
     z-index: 10;
 }
-=======
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
+.soluc_ent_section1_partie_droite_img_homme{
+    position: absolute;
+    transform: translate(300px, 150px);
+    z-index: -10;
+}
+.soluc_ent_section1_partie_droite_img_femme{
+    position: absolute;
+    transform: translate(-140px, 250px);
+}

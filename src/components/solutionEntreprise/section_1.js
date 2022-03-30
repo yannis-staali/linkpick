@@ -1,11 +1,11 @@
 import './section_1.css'
 import done_img from '../../images/done_black.png'
-<<<<<<< HEAD
 import etudiante from '../../images/Etudiante.png'
 import brasEtudiante from '../../images/Bras étudiante.png'
+import hommeSolution from '../../images/homme_solution_entreprise.png'
+import femmeSolution from '../../images/femme_solution_entreprise.png'
 import Form from '../Form'
-=======
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
+
 
 const Section_1 = () =>{
 
@@ -42,13 +42,11 @@ const Section_1 = () =>{
                 
                 {/* --------partie pour le formulaire */}
                 <div className='soluc_ent_section1_partie_droite_containeur'>
-<<<<<<< HEAD
                     <img className='soluc_ent_section1_partie_droite_img_etudiante' src={etudiante}/>
                     <img className='soluc_ent_section1_partie_droite_img_bras_etudiante' src={brasEtudiante}/>
+                    <img className='soluc_ent_section1_partie_droite_img_homme' src={hommeSolution}/>
+                    <img className='soluc_ent_section1_partie_droite_img_femme' src={femmeSolution}/>
                     <Form/>
-=======
-                    partie droite
->>>>>>> 23e0a0e5a497a8eb41e19891425e2666cdac759f
                 </div>
 
             </div>
