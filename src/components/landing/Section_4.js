@@ -1,9 +1,6 @@
 import React from 'react';
 import Card from '../../module/Card';
 import './Section_4.css'
-// import Rythme1 from '../images/rythme1.svg'
-// import Rythme2 from '../images/rythme2.svg'
-// import Rythme3 from '../images/rythme3.svg'
 
 function Section4() {
 
