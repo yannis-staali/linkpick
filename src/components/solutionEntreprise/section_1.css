@@ -1,0 +1,75 @@
+
+
+
+
+
+.soluc_ent_section1_containeur{
+
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-image: url('../../images/solution_entreprise_background.png');
+    background-size: 35%;
+    background-position-y: bottom    ;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* width: 100vw; */
+}
+
+.soluc_ent_section1_containeur_secondaire{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5%; */
+    height: 60%;
+    width: 100vw;
+}
+
+.soluc_ent_section1_partie_gauche_containeur, .soluc_ent_section1_partie_droite_containeur{
+    width: 40%;
+    height: 100%;
+}
+
+.soluc_ent_section1_partie_gauche_containeur{
+    /* background-color: azure; */
+}
+
+
+.soluc_ent_section1_partie_gauche_contenu_h1{
+    font-weight: 900;
+    font-size: 1.8em;
+}
+.soluc_ent_section1_partie_gauche_contenu_h2{
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.soluc_ent_section1_partie_gauche_contenu_h1 > span, .soluc_ent_section1_partie_gauche_contenu_h2 > span {
+    color: #3B3BFF;
+}
+
+.soluc_ent_section1_partie_gauche_contenu_liste{
+    /* background-color: blueviolet; */
+    margin-top: 2vh;
+}
+
+.soluc_ent_section1_partie_gauche_contenu_liste > li {
+    /* background-color: yellow; */
+    display: flex;
+    align-items:flex-start;
+    
+}
+.soluc_ent_section1_partie_gauche_contenu_liste > li > img{
+    /* background-color: blue; */
+    height: 20px;
+    margin-right: 6px;
+        
+}
+
+.soluc_ent_section1_partie_gauche_contenu_liste > li > p{
+    /* background-color: red; */
+    display: block;
+    height: 20px;
+    
+}
