@@ -27,6 +27,7 @@ function Nav() {
     window.addEventListener('scroll', changeBackground);
 
   return (
+    <div>
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} ${nav ? "activateNav" : "immobile"}`}>
         <div className="navbar__logo">
             <Link className="navbar__link containLogo" to="/"><img  className='img__logo' src={logoLinckpick} alt='' /></Link>
@@ -44,6 +45,23 @@ function Nav() {
             </li>
             <li className="navbar__item slideInDown-3">
                 <a href="/" className="navbar__link">Espace organisme</a>
+                    <div class="dropdown">
+                        <ul>
+                            <div>
+                                <li className='dropdown-title'>Etablissement scolaire</li>
+                                <li className='dropdown-text'>Découvrir notre solution</li>
+                            </div>
+                            <div>
+                                <li className='dropdown-title'>Entreprise</li>
+                                <li className='dropdown-text'>Découvrir notre solution</li>
+                            </div>
+                        </ul>
+                        <div className='dropdown-infos'>
+                            <p> Vous souhaiter plus d'informations ? </p>
+                            <p> Vous pouvez directement nous contacter à l'aide notre support, par téléphone ou par ticket</p>
+                            <p> Nous contacter </p>
+                        </div>
+                    </div>
             </li>
     
             <li className="navbar__item slideInDown-5">
@@ -57,6 +75,8 @@ function Nav() {
             <span className="burger-bar"></span>
         </button>
     </nav>
+    </div>  
+    
   )
 }
 
