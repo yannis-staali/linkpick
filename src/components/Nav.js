@@ -26,11 +26,15 @@ function Nav() {
 
     window.addEventListener('scroll', changeBackground);
 
+    // let link = document.getElementById('linkDrop');
+
+    // link.addEventListener("mouseover" );
+
   return (
     <div>
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} ${nav ? "activateNav" : "immobile"}`}>
         <div className="navbar__logo">
-            <Link className="navbar__link" to="/"><img  className='img__logo' src={logoLinckpick} alt='' /></Link>
+            <Link className="navbar__link containLogo" to="/"><img  className='img__logo' src={logoLinckpick} alt='' /></Link>
         </div>
         <ul className="navbar__links">
             <li className="navbar__item slideInDown-1">

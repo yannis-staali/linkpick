@@ -1,8 +1,25 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Card from '../../module/Card';
 import './Section_4.css'
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {ScrollToPlugin} from  "gsap/ScrollToPlugin";
+
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+
 function Section4() {
+
+    useEffect(() => {
+
+        //Animation cardOne
+        gsap.from(".card", {
+            scrollTrigger: ".card",
+            y:200,
+            duration:1
+        });
+
+    }, [])
 
     return (
         <section>

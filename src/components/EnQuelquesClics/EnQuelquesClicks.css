@@ -1,12 +1,12 @@
 
 .enQqClics_container{
     /* background-color: aqua; */
-    width: 40%;
+    width: 80%;
     height: 70vh;
     /* margin-top: 300px; */
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: end;
+
 }
 .enQqClics_h1{
     color: #152652;
@@ -34,6 +34,7 @@
     margin-top: 20px;
     width: 94%;
     transition: 0.3s;
+    /* background-color: red; */
 }
 .enQqClics_card_container:hover{
     background-color: #E4EEFF;
@@ -54,4 +55,9 @@
     font-size: 0.7em;
     color:#5D75A8;
     margin-top: 20px
+}
+
+.enQqClicssous_container {
+    width: 80%;
+    /* background-color: yellow; */
 }

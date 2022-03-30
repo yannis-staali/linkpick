@@ -184,6 +184,10 @@
     
 }
 
+.searchButton:hover {
+    background-color: #022c71;
+}
+
 .landing_threeCards {
     display: flex;
     width: 100%;
