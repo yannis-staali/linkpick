@@ -6,7 +6,7 @@ import Screen from '../../images/ecole/Groupe 2945.svg'
 const Section2 = () => {
 
     return (
-        <div className="section1 section1_1">
+        <div className="section1_3 section1_1">
             <EnQuelquesClicks />
             <div className='containerImg'>
                 <img src={Competences} alt=""/>
