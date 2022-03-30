@@ -1,14 +1,13 @@
 .card {
-    width: 25%;
+    width: 31%;
     background-color: #ffffff;
     box-shadow: 5px 5px 10px rgba(62, 72, 255, 0.102), -5px -5px 10px rgba(50, 102, 255, 0.102)  ; 
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 2.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     padding-bottom: 2rem;
 }
 

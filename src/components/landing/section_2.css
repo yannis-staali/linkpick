@@ -1,0 +1,19 @@
+
+
+.container_section_2{
+    /* background-color: rgb(228, 255, 203); */
+    margin-top:20%;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: 48%;
+    background-image: url('../../images/bg_section_2 -aCopie.png');
+    background-position-x: right    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_en_qq_clics{
+    /* background-color: brown; */
+    width: 70%;
+}

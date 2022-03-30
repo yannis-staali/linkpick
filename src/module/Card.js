@@ -6,10 +6,9 @@ import Rythme2 from '../images/rythme2.svg'
 import Rythme3 from '../images/rythme3.svg'
 // btnHref, onClick, btnClassName, btnText
 
-function Card({img , title , text, alt, btnHref, onClick, btnClassName, btnBackground, btnText } ) {
+function Card({ className, img , title , text, alt, btnHref, onClick, btnClassName, btnBackground, btnText } ) {
     return (
-        <div className='card'>       
-            {/* {console.log(img)} */}
+        <div className={className}>
             <div className='card_image'>
                 {(() => {
                     if (img === "1") {
