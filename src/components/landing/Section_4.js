@@ -17,7 +17,7 @@ function Section4() {
 
         //Animation cardOne
         gsap.from(".card", {
-            scrollTrigger: ".card_title",
+            scrollTrigger: ".card",
             y:200,
             duration:1
         });

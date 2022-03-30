@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import "./Section_1.css";
+import "./section_2.css";
 import boussole from '../../images/boussole.png';
 import malette from '../../images/malette.png';
 import courbe from '../../images/courbe.png';
@@ -42,27 +43,87 @@ function Section1() {
     useEffect(() => {
 
         //Animation cardOne
-        gsap.from(".card_one", {
-            scrollTrigger: ".card_one",
-            y:100,
-            x:-100,
-            duration:1
-        });
+        // gsap.from(".card_one", {
+        //     scrollTrigger: ".container_gauche",
+        //     start: "1000",
+        //     y:100,
+        //     x:-100,
+        //     duration:1
+        // });
+
+        gsap.fromTo(
+            ".card_one",
+            {
+                opacity: 0,
+                y:200,
+                x:-200,
+            },
+            {
+                opacity:1,
+                x:0,
+                y:0,
+                // delay: delay || 0.4,
+                duration:1,
+                scrollTrigger: {
+                    trigger: ".triggsec1",
+                }
+    
+            }
+        )
 
         //Animation cardTwo
-        gsap.from(".card_two", {
-            scrollTrigger: ".card_two",
-            y:100,
-            duration:1
-        });
+        // gsap.from(".card_two", {
+        //     scrollTrigger: ".container_gauche",
+        //     start: "1000",
+        //     y:100,
+        //     duration:1
+        // });
+
+        gsap.fromTo(
+            ".card_two",
+            {
+                opacity: 0,
+                y:100,
+            },
+            {
+                opacity:1,
+                y:0,
+                duration:1,
+                scrollTrigger: {
+                    trigger: ".triggsec1",
+                }
+    
+            }
+        )
 
         //Animation cardThree
-        gsap.from(".card_three", {
-            scrollTrigger: ".card_three",
-            y:100,
-            x:100,
-            duration:1
-        });
+        // gsap.from(".card_three", {
+        //     scrollTrigger: ".container_gauche",
+        //     start: "1000",
+        //     y:100,
+        //     x:100,
+        //     duration:1
+        // });
+
+        
+        gsap.fromTo(
+            ".card_three",
+            {
+                opacity: 0,
+                y:200,
+                x:200,
+            },
+            {
+                opacity:1,
+                x:0,
+                y:0,
+                duration:1,
+                scrollTrigger: {
+                    trigger: ".triggsec1",
+                }
+    
+            }
+        )
 
     }, [])
 
@@ -152,6 +213,7 @@ function Section1() {
                 </div>
             </div>
         </div>
+        <div className="triggsec1"></div>
     </div>
   )
 }
