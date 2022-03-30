@@ -1,0 +1,71 @@
+.newsletter_container {
+    height: 70%;
+    justify-content: center;
+    margin: 8vh 8vw;
+    padding-bottom: 10rem;
+    background-image: url(../../images/newsletter/Groupe_de_masques_13.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F3F7FF;
+    border-radius: 10px;
+}
+
+.title_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 5rem;
+}
+
+.emojiContainer > h1 {
+    color: #152652;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-right: 0.4rem;
+}
+
+.title_container > p {
+    color: #5D75A8;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.emailInput {
+    min-width: 330px;
+    padding: 0.4rem;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    border-color: #dce6fac7;
+    border-width: 2px;
+    border-style: solid;
+    color: #5D75A8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.emailInput::placeholder {
+    color: #5D75A8;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.min-width {
+    min-width: 330px;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.emojiContainer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emojiContainer > img {
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    width: 1.8rem;
+}

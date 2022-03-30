@@ -1,0 +1,87 @@
+
+.soluc_ent_section1_containeur{
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-image: url('../../images/solutionEntrepriseback.png');
+    background-size: 100%;
+    background-position-y: bottom    ;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* z-index: -999999; */
+}
+.form_integre_solution_entreprise{
+    position: relative;
+    z-index: 9999
+}
+.soluc_ent_section1_containeur_secondaire{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    width: 100vw;
+    z-index: 10;
+}
+
+.soluc_ent_section1_partie_gauche_containeur, .soluc_ent_section1_partie_droite_containeur{
+    width: 40%;
+    height: 100%;
+}
+.soluc_ent_section1_partie_droite_containeur{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.soluc_ent_section1_partie_gauche_contenu_h1{
+    font-weight: 900;
+    font-size: 1.8em;
+}
+.soluc_ent_section1_partie_gauche_contenu_h2{
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.soluc_ent_section1_partie_gauche_contenu_h1 > span, .soluc_ent_section1_partie_gauche_contenu_h2 > span {
+    color: #3B3BFF;
+}
+
+.soluc_ent_section1_partie_gauche_contenu_liste{
+    margin-top: 2vh;
+}
+
+.soluc_ent_section1_partie_gauche_contenu_liste > li {
+    display: flex;
+    align-items:flex-start;
+    
+}
+.soluc_ent_section1_partie_gauche_contenu_liste > li > img{
+    height: 20px;
+    margin-right: 6px;
+        
+}
+
+.soluc_ent_section1_partie_gauche_contenu_liste > li > p{
+    display: block;
+    height: 20px;
+    color:#5D75A8
+}
+
+.soluc_ent_section1_partie_droite_img_etudiante{
+    position: absolute;
+    transform: translate(50px, -65px);
+    z-index: -5;
+}
+.soluc_ent_section1_partie_droite_img_bras_etudiante{
+    position: absolute;
+    transform: translate(65px, -15px);
+    z-index: 10;
+}
+.soluc_ent_section1_partie_droite_img_homme{
+    position: absolute;
+    transform: translate(300px, 150px);
+    z-index: -10;
+}
+.soluc_ent_section1_partie_droite_img_femme{
+    position: absolute;
+    transform: translate(-140px, 250px);
+}
