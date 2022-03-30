@@ -1,14 +1,17 @@
 #form {
     background-color: rgb(255, 255, 255);
     border-radius: 1rem;
-    padding: 30px;
-    width : 30vw;
-    margin : 20px;
+    padding: 20px;
+    max-width : 450px;
+    /* margin : 20px; */
     box-shadow: 5px 5px 10px rgba(62, 72, 255, 0.102), -5px -5px 10px rgba(50, 102, 255, 0.102);
+
 }
 #form h2 {
+    font-size: 1rem;
     text-align : center; 
-    padding: 30px;
+    /* padding: 30px; */
+    margin-bottom: 10px;
     color : var(--darkBlue);
 }
 #form button {
@@ -63,8 +66,8 @@ input::placeholder {
 }
 
 .champs-obligatoire, .en-savoir-plus {
-    padding : 10px 0px;
-    font-size: 1rem;
+    padding : 5px 0px;
+    font-size: 0.8rem;
     color : #5D75A8; 
     font-family: 'Roboto', sans-serif;
 }

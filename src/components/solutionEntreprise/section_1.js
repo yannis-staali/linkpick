@@ -1,5 +1,8 @@
 import './section_1.css'
 import done_img from '../../images/done_black.png'
+import etudiante from '../../images/Etudiante.png'
+import brasEtudiante from '../../images/Bras étudiante.png'
+import Form from '../Form'
 
 const Section_1 = () =>{
 
@@ -36,7 +39,9 @@ const Section_1 = () =>{
                 
                 {/* --------partie pour le formulaire */}
                 <div className='soluc_ent_section1_partie_droite_containeur'>
-                    partie droite
+                    <img className='soluc_ent_section1_partie_droite_img_etudiante' src={etudiante}/>
+                    <img className='soluc_ent_section1_partie_droite_img_bras_etudiante' src={brasEtudiante}/>
+                    <Form/>
                 </div>
 
             </div>
