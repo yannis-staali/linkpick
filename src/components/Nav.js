@@ -26,6 +26,10 @@ function Nav() {
 
     window.addEventListener('scroll', changeBackground);
 
+    // let link = document.getElementById('linkDrop');
+
+    // link.addEventListener("mouseover" );
+
   return (
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} ${nav ? "activateNav" : "immobile"}`}>
         <div className="navbar__logo">
@@ -42,8 +46,15 @@ function Nav() {
                     <Link className="navbar__link" to="/solution-ecole">Trouver mon école</Link>
                 </nav>
             </li>
-            <li className="navbar__item slideInDown-3">
-                <a href="/" className="navbar__link">Espace organisme</a>
+            <li className="navbar__item slideInDown-3 containDrop">
+                <div className="containlinkAndDrop">
+                    <a href="/" className="navbar__link linky " id='linkDrop'>Espace organisme</a>
+                    {/* <div className='navbar__link_dropdown'>
+                        <p>Etablissement scolaire</p>
+                        <p>Etablissement scolaire</p>
+                        <p>Etablissement scolaire</p>
+                    </div> */}
+                </div>
             </li>
     
             <li className="navbar__item slideInDown-5">
