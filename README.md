@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+Hackathon project to make a React.js landing page for linkpick in one night.
+
 ## Available Scripts
 
 In the project directory, you can run:
